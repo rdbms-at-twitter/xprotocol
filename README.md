@@ -18,23 +18,12 @@ https://dev.mysql.com/doc/dev/connector-nodejs/8.0/
 
 【 Sample Output 】
 
+[nodejs]# node demo_x_find.js 
+[nodejs]# node demo_x_add.js 
+[nodejs]# node demo_x_find.js 
 
-[root@misc01 nodejs]# node demo_x_find.js 
-[root@misc01 nodejs]# node demo_x_add.js 
-[root@misc01 nodejs]# node demo_x_find.js 
-{ _id: '0eeb6274-0327-e10e-edde-e329d05e',
-  uid: 3,
-  price: 3000,
-  product: 'スマホアプリC',
-  language: 'JP' }
-{ _id: '4d6c48e8-c021-4f8f-d4bf-dcbca5c5',
-  uid: 2,
-  price: 5000,
-  product: 'スマホアプリB',
-  language: 'JP' }
-{ _id: 'dc183f31-6b6c-1198-0ac5-84c176e4',
-  uid: 1,
-  price: 10000,
-  product: 'スマホアプリA',
-  language: 'JP' }
-[root@misc01 nodejs]# 
+{ _id: '0eeb6274-0327-e10e-edde-e329d05e', uid: 3, price: 3000, product: 'スマホアプリC', language: 'JP' }
+
+{ _id: '4d6c48e8-c021-4f8f-d4bf-dcbca5c5', uid: 2, price: 5000, product: 'スマホアプリB', language: 'JP' }
+
+{ _id: 'dc183f31-6b6c-1198-0ac5-84c176e4', uid: 1, price: 10000, product: 'スマホアプリA',language: 'JP' }
