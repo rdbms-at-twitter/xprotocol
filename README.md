@@ -18,13 +18,16 @@ https://dev.mysql.com/doc/dev/connector-nodejs/8.0/
 
 【 Sample Output 】
 
-1) No Data
+(1) No Data
+
 Shell> node demo_x_find.js 
 
-2) Add Data
+(2) Add Data
+
 Shell> node demo_x_add.js 
 
-3) Confirm Data
+(3) Confirm Data
+
 Shell> node demo_x_find.js 
 
 { _id: '0eeb6274-0327-e10e-edde-e329d05e', uid: 3, price: 3000, product: 'スマホアプリC', language: 'JP' }
