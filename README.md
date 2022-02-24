@@ -4,7 +4,10 @@ Sample Scripts for Evaluating MySQL X Protocol
 You can use MySQL as JSON Document Database.
 
 1) Please Install x protocol before using scripts.
+
+``` 
 [mysql]> INSTALL PLUGIN mysqlx SONAME 'mysqlx.so';
+``` 
 
 Setting Up MySQL as a Document Store
 https://dev.mysql.com/doc/refman/5.7/en/document-store-setting-up.html
@@ -20,14 +23,15 @@ https://dev.mysql.com/doc/dev/connector-nodejs/8.0/
 
 (1) No Data
 
-Shell> node demo_x_find.js 
+``` Shell> node demo_x_find.js ``` 
 
 (2) Add Data
 
-Shell> node demo_x_add.js 
+``` Shell> node demo_x_add.js ``` 
 
 (3) Confirm Data
 
+```
 Shell> node demo_x_find.js 
 
 { _id: '0eeb6274-0327-e10e-edde-e329d05e', uid: 3, price: 3000, product: 'スマホアプリC', language: 'JP' }
@@ -35,3 +39,5 @@ Shell> node demo_x_find.js
 { _id: '4d6c48e8-c021-4f8f-d4bf-dcbca5c5', uid: 2, price: 5000, product: 'スマホアプリB', language: 'JP' }
 
 { _id: 'dc183f31-6b6c-1198-0ac5-84c176e4', uid: 1, price: 10000, product: 'スマホアプリA',language: 'JP' }
+
+```
